@@ -1,5 +1,7 @@
 package nl.swaen.operator;
 
+import android.util.Log;
+
 import org.cocos2d.layers.CCLayer;
 import org.cocos2d.layers.CCScene;
 import org.cocos2d.menus.CCMenu;
@@ -8,9 +10,6 @@ import org.cocos2d.nodes.CCDirector;
 import org.cocos2d.transitions.CCFadeTransition;
 import org.cocos2d.types.CGSize;
 import org.cocos2d.types.ccColor3B;
-
-import android.content.Intent;
-import android.util.Log;
 
 public class MainMenuLayer extends CCLayer {
 	private static final String TAG = "POPERATOR";
@@ -24,7 +23,7 @@ public class MainMenuLayer extends CCLayer {
 		return scene;
 	}
 
-	protected MainMenuLayer() {
+	public MainMenuLayer() {
 		CGSize winSize = CCDirector.sharedDirector().displaySize();
 
 		CCMenuItemSprite menuItem1 = MenuLayer.createMenuItemWithImage("Processen", false, this, "processenMenu");
@@ -58,9 +57,9 @@ public class MainMenuLayer extends CCLayer {
 
 	public void bedrijvenMenu(Object sender) {
 		Log.d(TAG, "Going to beroepenMenu");
-
-		Intent intent = new Intent(CCDirector.sharedDirector().getActivity(), BedrijvenActivity.class);
-		CCDirector.sharedDirector().getActivity().startActivity(intent);
+//
+//		Intent intent = new Intent(CCDirector.sharedDirector().getActivity(), BedrijvenActivity.class);
+//		CCDirector.sharedDirector().getActivity().startActivity(intent);
 
 	}
 

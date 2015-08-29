@@ -18,6 +18,8 @@ import org.cocos2d.types.ccColor4B;
 import android.util.Log;
 import android.view.MotionEvent;
 
+import nl.swaen.operator.activity.MainActivity;
+
 public class CCInstructionLayer extends CCLayer {
 	public static CGSize winSize = CCDirector.sharedDirector().displaySize();
 
