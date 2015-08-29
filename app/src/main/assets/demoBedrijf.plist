@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>id</key>
+		<integer>1</integer>
+		<key>naam</key>
+		<string>Hittech Multin BV</string>
+		<key>longitude</key>
+		<string>4.35172</string>
+		<key>latitude</key>
+		<string>52.01990</string>
+		<key>informatie</key>
+		<string>Hittech Multin BV is een system supplier waar ontwikkeling, (value)engineering en assemblage op ruim 4.000 m2 in één organisatie bijeen zijn gebracht. 
+    Door de samenvoeging van deze disciplines ontstaat synergie tussen denken en doen, tussen uitvinden en bouwen, tussen creativiteit en praktijk, tussen high-tech en betaalbaarheid. </string>
+		<key>vragen</key>
+		<array>
+			<dict>
+				<key>vraag</key>
+				<string>Wat maakt Hittech Multin BV?</string>
+				<key>antwoorden</key>
+				<array>
+					<dict>
+						<key>antwoordTekst</key>
+						<string>Fietsen</string>
+						<key>goed</key>
+						<false/>
+					</dict>
+					<dict>
+						<key>antwoordTekst</key>
+						<string>Zwembanden</string>
+						<key>goed</key>
+						<false/>
+					</dict>
+					<dict>
+						<key>antwoordTekst</key>
+						<string>Thermometers</string>
+						<key>goed</key>
+						<true/>
+					</dict>
+				</array>
+			</dict>
+			<dict>
+				<key>vraag</key>
+				<string>Hoelang bestaat Multin al?</string>
+				<key>antwoorden</key>
+				<array>
+					<dict>
+						<key>antwoordTekst</key>
+						<string>10 jaar</string>
+						<key>goed</key>
+						<false/>
+					</dict>
+					<dict>
+						<key>antwoordTekst</key>
+						<string>22 jaar</string>
+						<key>goed</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>antwoordTekst</key>
+						<string>53 jaar</string>
+						<key>goed</key>
+						<false/>
+					</dict>
+				</array>
+			</dict>
+		</array>
+	</dict>
+</array>
+</plist>

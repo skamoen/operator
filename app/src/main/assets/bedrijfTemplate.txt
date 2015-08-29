@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>id</key>
+	<integer>0</integer>
+	<key>naam</key>
+	<string></string>
+	<key>longitude</key>
+	<string></string>
+	<key>latitude</key>
+	<string></string>
+	<key>informatie</key>
+	<string></string>
+	<key>vragen</key>
+	<array>
+		<dict>
+			<key>vraag</key>
+			<string></string>
+			<key>antwoorden</key>
+			<array>
+				<dict>
+					<key>antwoordTekst</key>
+					<string></string>
+					<key>goed</key>
+					<false/>
+				</dict>
+			</array>
+		</dict>
+	</array>
+</dict>
+</plist>
